@@ -1,4 +1,20 @@
 # Broadway Grosses Dataset 
+> Trabalho 1 da disciplina **CK0268 - INTRODUÇÃO À CIÊNCIA DE DADOS** da **Universidade Federal do Ceará (UFC)**.
+## *Installation and Setup Instructions*
+### Requirements
+ - [x] Python 3.8+
+ - [x] pip 22.1+
+### Setup
+On your terminal, run this command to install all required libs:
+```bash
+pip install jupyter requests bs4 pandas matplotlib
+```
+After installation is complete, run the following command to start the notebook:
+```bash
+python -m notebook 
+```
+And access it via [localhost](http://localhost:8888/notebooks)
+
 ## *Jupyter notebook preview*
 > Constructs a **dataset** consisting of box office grosses from all ***closed*** Broadway shows up to this day. Utilizes data from [Broadway World](https://www.broadwayworld.com).
 ### `SETUP`
